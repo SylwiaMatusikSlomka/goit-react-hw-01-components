@@ -1,0 +1,68 @@
+.profile {
+    margin: 0 auto;
+    background-color: rgb(221, 239, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: 1px 1px 10px 1px;
+  }
+  .description {
+    max-width: 500px;
+    max-height: 500px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    background-color: white;
+    padding: 2.5rem;
+    border-radius: 1rem 1rem 0 0;
+    box-shadow: 1px 1px 5px 1px white;
+  }
+  .avatar {
+    width: 150px;
+    border-radius: 50%;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+  }
+  .description p {
+    margin: 0;
+    width: 100%;
+  }
+  .name {
+    font-weight: bold;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.6));
+  }
+  .stats {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 1rem;
+    border: 1px dotted black;
+    border-radius: 0 0 1rem 1rem;
+    background-color: white;
+  }
+  .stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    gap: 0.4rem;
+    padding: 1rem;
+  }
+  .quantity {
+    font-weight: bold;
+  }
+  .stats li:nth-child(2) {
+    border-left: 1px dotted black;
+    border-right: 1px dotted black;
+  }
